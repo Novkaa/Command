@@ -19,17 +19,21 @@ namespace CommandLabYOY
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+            Close();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

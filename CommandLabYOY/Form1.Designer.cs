@@ -34,7 +34,6 @@
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
-            button6 = new Button();
             button7 = new Button();
             button8 = new Button();
             pictureBox1 = new PictureBox();
@@ -74,6 +73,7 @@
             button18 = new Button();
             button19 = new Button();
             button20 = new Button();
+            button22 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -119,15 +119,15 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Azure;
+            button2.BackColor = Color.FromArgb(128, 255, 128);
             button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Segoe UI", 15F);
-            button2.Location = new Point(71, 235);
+            button2.Location = new Point(108, 720);
             button2.Name = "button2";
-            button2.Size = new Size(238, 50);
+            button2.Size = new Size(160, 50);
             button2.TabIndex = 2;
-            button2.Text = "Новинки";
+            button2.Text = "Корзина";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
@@ -171,18 +171,6 @@
             button5.Text = "Детское меню";
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
-            // 
-            // button6
-            // 
-            button6.BackColor = Color.Chartreuse;
-            button6.Cursor = Cursors.Hand;
-            button6.Font = new Font("Segoe UI", 15F);
-            button6.Location = new Point(114, 717);
-            button6.Name = "button6";
-            button6.Size = new Size(141, 50);
-            button6.TabIndex = 6;
-            button6.Text = "Корзина";
-            button6.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
@@ -594,12 +582,26 @@
             button20.Text = "+";
             button20.UseVisualStyleBackColor = false;
             // 
+            // button22
+            // 
+            button22.BackColor = Color.Azure;
+            button22.Cursor = Cursors.Hand;
+            button22.FlatStyle = FlatStyle.Popup;
+            button22.Font = new Font("Segoe UI", 15F);
+            button22.Location = new Point(71, 235);
+            button22.Name = "button22";
+            button22.Size = new Size(238, 50);
+            button22.TabIndex = 54;
+            button22.Text = "Новинки";
+            button22.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.InactiveCaption;
             ClientSize = new Size(1254, 847);
+            Controls.Add(button22);
             Controls.Add(button20);
             Controls.Add(button19);
             Controls.Add(button18);
@@ -639,7 +641,6 @@
             Controls.Add(pictureBox1);
             Controls.Add(button8);
             Controls.Add(button7);
-            Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -673,7 +674,6 @@
         private Button button3;
         private Button button4;
         private Button button5;
-        private Button button6;
         private Button button7;
         private Button button8;
         private PictureBox pictureBox1;
@@ -713,5 +713,6 @@
         private Button button18;
         private Button button19;
         private Button button20;
+        private Button button22;
     }
 }

@@ -34,7 +34,6 @@
             pictureBox1 = new PictureBox();
             button8 = new Button();
             label1 = new Label();
-            button1 = new Button();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
@@ -53,6 +52,7 @@
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
+            label8 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -125,19 +125,6 @@
             label1.Text = "Корзина";
             label1.Click += label1_Click;
             // 
-            // button1
-            // 
-            button1.BackColor = Color.Red;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Segoe UI", 15F);
-            button1.Location = new Point(12, 21);
-            button1.Name = "button1";
-            button1.Size = new Size(181, 49);
-            button1.TabIndex = 62;
-            button1.Text = "<-- Назад";
-            button1.UseVisualStyleBackColor = false;
-            // 
             // label2
             // 
             label2.BorderStyle = BorderStyle.Fixed3D;
@@ -152,15 +139,16 @@
             // 
             // label3
             // 
+            label3.BackColor = Color.Red;
             label3.BorderStyle = BorderStyle.Fixed3D;
             label3.Cursor = Cursors.SizeAll;
             label3.FlatStyle = FlatStyle.System;
-            label3.Font = new Font("Segoe UI", 15F);
-            label3.Location = new Point(255, 108);
+            label3.Font = new Font("Segoe UI", 20F);
+            label3.Location = new Point(45, 9);
             label3.Name = "label3";
-            label3.Size = new Size(299, 152);
+            label3.Size = new Size(156, 49);
             label3.TabIndex = 64;
-            label3.Text = "Ризотто                                              Цена: 500$ 1000гр";
+            label3.Text = "<-- Назад";
             label3.Click += label3_Click;
             // 
             // label4
@@ -336,11 +324,24 @@
             textBox5.TabIndex = 80;
             textBox5.Text = "1 шт";
             // 
+            // label8
+            // 
+            label8.BorderStyle = BorderStyle.Fixed3D;
+            label8.Cursor = Cursors.SizeAll;
+            label8.FlatStyle = FlatStyle.System;
+            label8.Font = new Font("Segoe UI", 15F);
+            label8.Location = new Point(255, 108);
+            label8.Name = "label8";
+            label8.Size = new Size(299, 152);
+            label8.TabIndex = 82;
+            label8.Text = "Ризотто                                              Цена: 500$ 1000гр";
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1485, 659);
+            Controls.Add(label8);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
@@ -359,7 +360,6 @@
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(button1);
             Controls.Add(button12);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
@@ -384,7 +384,6 @@
         private PictureBox pictureBox1;
         private Button button8;
         private Label label1;
-        private Button button1;
         private Label label2;
         private Label label3;
         private Label label4;
@@ -403,5 +402,6 @@
         private TextBox textBox3;
         private TextBox textBox4;
         private TextBox textBox5;
+        private Label label8;
     }
 }
