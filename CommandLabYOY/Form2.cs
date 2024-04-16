@@ -35,5 +35,10 @@ namespace CommandLabYOY
         {
             
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 z = new Form3();
+            z.ShowDialog();
+        }
     }
 }

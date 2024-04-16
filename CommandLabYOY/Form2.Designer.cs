@@ -42,7 +42,6 @@
             pictureBox4 = new PictureBox();
             label5 = new Label();
             button4 = new Button();
-            button5 = new Button();
             pictureBox5 = new PictureBox();
             label6 = new Label();
             button6 = new Button();
@@ -53,6 +52,7 @@
             textBox4 = new TextBox();
             textBox5 = new TextBox();
             label8 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -144,7 +144,7 @@
             label3.Cursor = Cursors.SizeAll;
             label3.FlatStyle = FlatStyle.System;
             label3.Font = new Font("Segoe UI", 20F);
-            label3.Location = new Point(45, 9);
+            label3.Location = new Point(44, 9);
             label3.Name = "label3";
             label3.Size = new Size(156, 49);
             label3.TabIndex = 64;
@@ -223,19 +223,6 @@
             button4.TabIndex = 70;
             button4.Text = "-";
             button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            button5.BackColor = Color.Lime;
-            button5.Cursor = Cursors.Hand;
-            button5.FlatStyle = FlatStyle.Popup;
-            button5.Font = new Font("Segoe UI", 15F);
-            button5.Location = new Point(1186, 598);
-            button5.Name = "button5";
-            button5.Size = new Size(181, 49);
-            button5.TabIndex = 71;
-            button5.Text = "Оплатить";
-            button5.UseVisualStyleBackColor = false;
             // 
             // pictureBox5
             // 
@@ -336,11 +323,25 @@
             label8.TabIndex = 82;
             label8.Text = "Ризотто                                              Цена: 500$ 1000гр";
             // 
+            // button1
+            // 
+            button1.BackColor = Color.Lime;
+            button1.Cursor = Cursors.Hand;
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.Font = new Font("Segoe UI", 15F);
+            button1.Location = new Point(1174, 598);
+            button1.Name = "button1";
+            button1.Size = new Size(133, 49);
+            button1.TabIndex = 83;
+            button1.Text = "Оплатить";
+            button1.UseVisualStyleBackColor = false;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1485, 659);
+            Controls.Add(button1);
             Controls.Add(label8);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
@@ -351,7 +352,6 @@
             Controls.Add(button6);
             Controls.Add(label6);
             Controls.Add(pictureBox5);
-            Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(label5);
             Controls.Add(pictureBox4);
@@ -392,7 +392,6 @@
         private PictureBox pictureBox4;
         private Label label5;
         private Button button4;
-        private Button button5;
         private PictureBox pictureBox5;
         private Label label6;
         private Button button6;
@@ -403,5 +402,6 @@
         private TextBox textBox4;
         private TextBox textBox5;
         private Label label8;
+        private Button button1;
     }
 }
