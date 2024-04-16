@@ -105,7 +105,7 @@
             button2.Name = "button2";
             button2.Size = new Size(195, 50);
             button2.TabIndex = 2;
-            button2.Text = "Новкинки";
+            button2.Text = "Новинки";
             button2.UseVisualStyleBackColor = false;
             // 
             // button3
