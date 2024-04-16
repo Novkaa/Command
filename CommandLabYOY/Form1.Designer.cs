@@ -197,7 +197,7 @@
             button8.ForeColor = Color.Black;
             button8.Location = new Point(380, 115);
             button8.Name = "button8";
-            button8.Size = new Size(847, 20);
+            button8.Size = new Size(862, 20);
             button8.TabIndex = 8;
             button8.UseVisualStyleBackColor = false;
             // 
