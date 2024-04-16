@@ -48,6 +48,11 @@
             label6 = new Label();
             button6 = new Button();
             label7 = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
+            textBox5 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -58,9 +63,10 @@
             // button12
             // 
             button12.BackColor = Color.Red;
+            button12.Cursor = Cursors.Hand;
             button12.FlatStyle = FlatStyle.Popup;
             button12.Font = new Font("Segoe UI", 10F);
-            button12.Location = new Point(560, 596);
+            button12.Location = new Point(599, 595);
             button12.Name = "button12";
             button12.Size = new Size(32, 22);
             button12.TabIndex = 61;
@@ -69,41 +75,48 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.Image = Properties.Resources._5;
             pictureBox3.Location = new Point(91, 466);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(146, 152);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 44;
             pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
+            pictureBox2.Image = Properties.Resources._7;
             pictureBox2.Location = new Point(91, 286);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(146, 152);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 43;
             pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = Properties.Resources._10;
             pictureBox1.Location = new Point(91, 108);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(146, 152);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 42;
             pictureBox1.TabStop = false;
             // 
             // button8
             // 
-            button8.BackColor = SystemColors.ControlDarkDark;
+            button8.BackColor = SystemColors.MenuHighlight;
             button8.FlatStyle = FlatStyle.Flat;
-            button8.Location = new Point(1, 73);
+            button8.Location = new Point(1, 76);
             button8.Name = "button8";
-            button8.Size = new Size(1593, 20);
+            button8.Size = new Size(1593, 17);
             button8.TabIndex = 41;
             button8.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.Cursor = Cursors.No;
             label1.Font = new Font("Segoe UI", 40F);
             label1.Location = new Point(618, -2);
             label1.Name = "label1";
@@ -115,6 +128,7 @@
             // button1
             // 
             button1.BackColor = Color.Red;
+            button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Segoe UI", 15F);
             button1.Location = new Point(12, 21);
@@ -134,7 +148,7 @@
             label2.Name = "label2";
             label2.Size = new Size(299, 152);
             label2.TabIndex = 63;
-            label2.Text = "label2";
+            label2.Text = "Крудо                                            Цена: 900$ 500гр";
             // 
             // label3
             // 
@@ -146,7 +160,7 @@
             label3.Name = "label3";
             label3.Size = new Size(299, 152);
             label3.TabIndex = 64;
-            label3.Text = "label3";
+            label3.Text = "Ризотто                                              Цена: 500$ 1000гр";
             label3.Click += label3_Click;
             // 
             // label4
@@ -159,14 +173,15 @@
             label4.Name = "label4";
             label4.Size = new Size(299, 152);
             label4.TabIndex = 65;
-            label4.Text = "label4";
+            label4.Text = "Кростини                                    Цена: 4300$ 100гр";
             // 
             // button2
             // 
             button2.BackColor = Color.Red;
+            button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Segoe UI", 10F);
-            button2.Location = new Point(560, 416);
+            button2.Location = new Point(599, 416);
             button2.Name = "button2";
             button2.Size = new Size(32, 22);
             button2.TabIndex = 66;
@@ -176,9 +191,10 @@
             // button3
             // 
             button3.BackColor = Color.Red;
+            button3.Cursor = Cursors.Hand;
             button3.FlatStyle = FlatStyle.Popup;
             button3.Font = new Font("Segoe UI", 10F);
-            button3.Location = new Point(560, 238);
+            button3.Location = new Point(599, 238);
             button3.Name = "button3";
             button3.Size = new Size(32, 22);
             button3.TabIndex = 67;
@@ -187,9 +203,11 @@
             // 
             // pictureBox4
             // 
+            pictureBox4.Image = Properties.Resources._9;
             pictureBox4.Location = new Point(684, 108);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(146, 152);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 68;
             pictureBox4.TabStop = false;
             // 
@@ -203,14 +221,15 @@
             label5.Name = "label5";
             label5.Size = new Size(299, 152);
             label5.TabIndex = 69;
-            label5.Text = "label5";
+            label5.Text = "Гранола                                           Цена: 1700$ 500гр";
             // 
             // button4
             // 
             button4.BackColor = Color.Red;
+            button4.Cursor = Cursors.Hand;
             button4.FlatStyle = FlatStyle.Popup;
             button4.Font = new Font("Segoe UI", 10F);
-            button4.Location = new Point(1160, 238);
+            button4.Location = new Point(1205, 238);
             button4.Name = "button4";
             button4.Size = new Size(32, 22);
             button4.TabIndex = 70;
@@ -220,9 +239,10 @@
             // button5
             // 
             button5.BackColor = Color.Lime;
+            button5.Cursor = Cursors.Hand;
             button5.FlatStyle = FlatStyle.Popup;
             button5.Font = new Font("Segoe UI", 15F);
-            button5.Location = new Point(1174, 598);
+            button5.Location = new Point(1186, 598);
             button5.Name = "button5";
             button5.Size = new Size(181, 49);
             button5.TabIndex = 71;
@@ -231,9 +251,11 @@
             // 
             // pictureBox5
             // 
+            pictureBox5.Image = Properties.Resources._1;
             pictureBox5.Location = new Point(684, 286);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(146, 152);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 72;
             pictureBox5.TabStop = false;
             // 
@@ -247,14 +269,15 @@
             label6.Name = "label6";
             label6.Size = new Size(299, 152);
             label6.TabIndex = 73;
-            label6.Text = "label6";
+            label6.Text = "Ласось в белом соусе           Цена: 1300$ 500гр";
             // 
             // button6
             // 
             button6.BackColor = Color.Red;
+            button6.Cursor = Cursors.Hand;
             button6.FlatStyle = FlatStyle.Popup;
             button6.Font = new Font("Segoe UI", 10F);
-            button6.Location = new Point(1160, 416);
+            button6.Location = new Point(1199, 417);
             button6.Name = "button6";
             button6.Size = new Size(32, 22);
             button6.TabIndex = 74;
@@ -271,13 +294,58 @@
             label7.Name = "label7";
             label7.Size = new Size(299, 49);
             label7.TabIndex = 75;
-            label7.Text = "Сумма к оплате:";
+            label7.Text = "Сумма к оплате:   ";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(560, 237);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(33, 23);
+            textBox1.TabIndex = 76;
+            textBox1.Text = "1 шт";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(560, 416);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(33, 23);
+            textBox2.TabIndex = 77;
+            textBox2.Text = "1 шт";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(560, 595);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(33, 23);
+            textBox3.TabIndex = 78;
+            textBox3.Text = "1 шт";
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(1160, 415);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(33, 23);
+            textBox4.TabIndex = 79;
+            textBox4.Text = "1 шт";
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(1160, 237);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(33, 23);
+            textBox5.TabIndex = 80;
+            textBox5.Text = "1 шт";
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1485, 659);
+            Controls.Add(textBox5);
+            Controls.Add(textBox4);
+            Controls.Add(textBox3);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
             Controls.Add(label7);
             Controls.Add(button6);
             Controls.Add(label6);
@@ -330,5 +398,10 @@
         private Label label6;
         private Button button6;
         private Label label7;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private TextBox textBox5;
     }
 }

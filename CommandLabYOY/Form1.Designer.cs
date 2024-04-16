@@ -57,14 +57,6 @@
             button10 = new Button();
             button11 = new Button();
             button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
-            button20 = new Button();
             textBox9 = new TextBox();
             textBox10 = new TextBox();
             textBox11 = new TextBox();
@@ -74,6 +66,14 @@
             pictureBox11 = new PictureBox();
             pictureBox12 = new PictureBox();
             button21 = new Button();
+            button13 = new Button();
+            button14 = new Button();
+            button15 = new Button();
+            button16 = new Button();
+            button17 = new Button();
+            button18 = new Button();
+            button19 = new Button();
+            button20 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -106,7 +106,7 @@
             // 
             button1.BackColor = Color.Azure;
             button1.BackgroundImageLayout = ImageLayout.None;
-            button1.Cursor = Cursors.IBeam;
+            button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Segoe UI", 15F);
             button1.ForeColor = SystemColors.ControlText;
@@ -120,6 +120,7 @@
             // button2
             // 
             button2.BackColor = Color.Azure;
+            button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Segoe UI", 15F);
             button2.Location = new Point(71, 235);
@@ -133,6 +134,7 @@
             // button3
             // 
             button3.BackColor = Color.Azure;
+            button3.Cursor = Cursors.Hand;
             button3.FlatStyle = FlatStyle.Popup;
             button3.Font = new Font("Segoe UI", 15F);
             button3.Location = new Point(71, 414);
@@ -146,6 +148,7 @@
             // button4
             // 
             button4.BackColor = Color.Azure;
+            button4.Cursor = Cursors.Hand;
             button4.FlatStyle = FlatStyle.Popup;
             button4.Font = new Font("Segoe UI", 15F);
             button4.Location = new Point(71, 501);
@@ -158,6 +161,7 @@
             // button5
             // 
             button5.BackColor = Color.Azure;
+            button5.Cursor = Cursors.Hand;
             button5.FlatStyle = FlatStyle.Popup;
             button5.Font = new Font("Segoe UI", 15F);
             button5.Location = new Point(71, 589);
@@ -171,6 +175,7 @@
             // button6
             // 
             button6.BackColor = Color.Chartreuse;
+            button6.Cursor = Cursors.Hand;
             button6.Font = new Font("Segoe UI", 15F);
             button6.Location = new Point(114, 717);
             button6.Name = "button6";
@@ -343,11 +348,12 @@
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(115, 23);
             textBox8.TabIndex = 24;
-            textBox8.Text = "Кростини";
+            textBox8.Text = "Кростини\r\nгно";
             // 
             // button9
             // 
             button9.BackColor = Color.Green;
+            button9.Cursor = Cursors.Hand;
             button9.FlatStyle = FlatStyle.Popup;
             button9.Font = new Font("Segoe UI", 10F);
             button9.Location = new Point(569, 308);
@@ -360,6 +366,7 @@
             // button10
             // 
             button10.BackColor = Color.Green;
+            button10.Cursor = Cursors.Hand;
             button10.FlatStyle = FlatStyle.Popup;
             button10.Font = new Font("Segoe UI", 10F);
             button10.Location = new Point(746, 309);
@@ -372,6 +379,7 @@
             // button11
             // 
             button11.BackColor = Color.Green;
+            button11.Cursor = Cursors.Hand;
             button11.FlatStyle = FlatStyle.Popup;
             button11.Font = new Font("Segoe UI", 10F);
             button11.Location = new Point(946, 309);
@@ -384,6 +392,7 @@
             // button12
             // 
             button12.BackColor = Color.Green;
+            button12.Cursor = Cursors.Hand;
             button12.FlatStyle = FlatStyle.Popup;
             button12.Font = new Font("Segoe UI", 10F);
             button12.Location = new Point(1148, 309);
@@ -392,102 +401,6 @@
             button12.TabIndex = 28;
             button12.Text = "+";
             button12.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            button13.BackColor = Color.Green;
-            button13.FlatStyle = FlatStyle.Popup;
-            button13.Font = new Font("Segoe UI", 10F);
-            button13.Location = new Point(547, 541);
-            button13.Name = "button13";
-            button13.Size = new Size(32, 22);
-            button13.TabIndex = 29;
-            button13.Text = "+";
-            button13.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            button14.BackColor = Color.Green;
-            button14.FlatStyle = FlatStyle.Popup;
-            button14.Font = new Font("Segoe UI", 10F);
-            button14.Location = new Point(746, 541);
-            button14.Name = "button14";
-            button14.Size = new Size(32, 22);
-            button14.TabIndex = 30;
-            button14.Text = "+";
-            button14.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            button15.BackColor = Color.Green;
-            button15.FlatStyle = FlatStyle.Popup;
-            button15.Font = new Font("Segoe UI", 10F);
-            button15.Location = new Point(946, 538);
-            button15.Name = "button15";
-            button15.Size = new Size(32, 22);
-            button15.TabIndex = 31;
-            button15.Text = "+";
-            button15.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            button16.BackColor = Color.Green;
-            button16.FlatStyle = FlatStyle.Popup;
-            button16.Font = new Font("Segoe UI", 10F);
-            button16.Location = new Point(1148, 540);
-            button16.Name = "button16";
-            button16.Size = new Size(32, 22);
-            button16.TabIndex = 32;
-            button16.Text = "+";
-            button16.UseVisualStyleBackColor = false;
-            // 
-            // button17
-            // 
-            button17.BackColor = Color.Green;
-            button17.FlatStyle = FlatStyle.Popup;
-            button17.Font = new Font("Segoe UI", 10F);
-            button17.Location = new Point(1148, 747);
-            button17.Name = "button17";
-            button17.Size = new Size(32, 22);
-            button17.TabIndex = 44;
-            button17.Text = "+";
-            button17.UseVisualStyleBackColor = false;
-            // 
-            // button18
-            // 
-            button18.BackColor = Color.Green;
-            button18.FlatStyle = FlatStyle.Popup;
-            button18.Font = new Font("Segoe UI", 10F);
-            button18.Location = new Point(946, 745);
-            button18.Name = "button18";
-            button18.Size = new Size(32, 22);
-            button18.TabIndex = 43;
-            button18.Text = "+";
-            button18.UseVisualStyleBackColor = false;
-            // 
-            // button19
-            // 
-            button19.BackColor = Color.Green;
-            button19.FlatStyle = FlatStyle.Popup;
-            button19.Font = new Font("Segoe UI", 10F);
-            button19.Location = new Point(746, 748);
-            button19.Name = "button19";
-            button19.Size = new Size(32, 22);
-            button19.TabIndex = 42;
-            button19.Text = "+";
-            button19.UseVisualStyleBackColor = false;
-            // 
-            // button20
-            // 
-            button20.BackColor = Color.Green;
-            button20.FlatStyle = FlatStyle.Popup;
-            button20.Font = new Font("Segoe UI", 10F);
-            button20.Location = new Point(547, 748);
-            button20.Name = "button20";
-            button20.Size = new Size(32, 22);
-            button20.TabIndex = 41;
-            button20.Text = "+";
-            button20.UseVisualStyleBackColor = false;
             // 
             // textBox9
             // 
@@ -565,6 +478,7 @@
             // 
             button21.BackColor = Color.Azure;
             button21.BackgroundImageLayout = ImageLayout.None;
+            button21.Cursor = Cursors.Hand;
             button21.FlatStyle = FlatStyle.Popup;
             button21.Font = new Font("Segoe UI", 15F);
             button21.ForeColor = SystemColors.ControlText;
@@ -576,17 +490,125 @@
             button21.UseVisualStyleBackColor = false;
             button21.Click += button21_Click;
             // 
+            // button13
+            // 
+            button13.BackColor = Color.Green;
+            button13.Cursor = Cursors.Hand;
+            button13.FlatStyle = FlatStyle.Popup;
+            button13.Font = new Font("Segoe UI", 10F);
+            button13.Location = new Point(547, 540);
+            button13.Name = "button13";
+            button13.Size = new Size(32, 22);
+            button13.TabIndex = 46;
+            button13.Text = "+";
+            button13.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            button14.BackColor = Color.Green;
+            button14.Cursor = Cursors.Hand;
+            button14.FlatStyle = FlatStyle.Popup;
+            button14.Font = new Font("Segoe UI", 10F);
+            button14.Location = new Point(746, 541);
+            button14.Name = "button14";
+            button14.Size = new Size(32, 22);
+            button14.TabIndex = 47;
+            button14.Text = "+";
+            button14.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            button15.BackColor = Color.Green;
+            button15.Cursor = Cursors.Hand;
+            button15.FlatStyle = FlatStyle.Popup;
+            button15.Font = new Font("Segoe UI", 10F);
+            button15.Location = new Point(946, 541);
+            button15.Name = "button15";
+            button15.Size = new Size(32, 22);
+            button15.TabIndex = 48;
+            button15.Text = "+";
+            button15.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            button16.BackColor = Color.Green;
+            button16.Cursor = Cursors.Hand;
+            button16.FlatStyle = FlatStyle.Popup;
+            button16.Font = new Font("Segoe UI", 10F);
+            button16.Location = new Point(1148, 541);
+            button16.Name = "button16";
+            button16.Size = new Size(32, 22);
+            button16.TabIndex = 49;
+            button16.Text = "+";
+            button16.UseVisualStyleBackColor = false;
+            // 
+            // button17
+            // 
+            button17.BackColor = Color.Green;
+            button17.Cursor = Cursors.Hand;
+            button17.FlatStyle = FlatStyle.Popup;
+            button17.Font = new Font("Segoe UI", 10F);
+            button17.Location = new Point(1148, 748);
+            button17.Name = "button17";
+            button17.Size = new Size(32, 22);
+            button17.TabIndex = 50;
+            button17.Text = "+";
+            button17.UseVisualStyleBackColor = false;
+            // 
+            // button18
+            // 
+            button18.BackColor = Color.Green;
+            button18.Cursor = Cursors.Hand;
+            button18.FlatStyle = FlatStyle.Popup;
+            button18.Font = new Font("Segoe UI", 10F);
+            button18.Location = new Point(946, 748);
+            button18.Name = "button18";
+            button18.Size = new Size(32, 22);
+            button18.TabIndex = 51;
+            button18.Text = "+";
+            button18.UseVisualStyleBackColor = false;
+            // 
+            // button19
+            // 
+            button19.BackColor = Color.Green;
+            button19.Cursor = Cursors.Hand;
+            button19.FlatStyle = FlatStyle.Popup;
+            button19.Font = new Font("Segoe UI", 10F);
+            button19.Location = new Point(746, 747);
+            button19.Name = "button19";
+            button19.Size = new Size(32, 22);
+            button19.TabIndex = 52;
+            button19.Text = "+";
+            button19.UseVisualStyleBackColor = false;
+            // 
+            // button20
+            // 
+            button20.BackColor = Color.Green;
+            button20.Cursor = Cursors.Hand;
+            button20.FlatStyle = FlatStyle.Popup;
+            button20.Font = new Font("Segoe UI", 10F);
+            button20.Location = new Point(547, 747);
+            button20.Name = "button20";
+            button20.Size = new Size(32, 22);
+            button20.TabIndex = 53;
+            button20.Text = "+";
+            button20.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.InactiveCaption;
             ClientSize = new Size(1254, 847);
-            Controls.Add(button21);
-            Controls.Add(button17);
-            Controls.Add(button18);
-            Controls.Add(button19);
             Controls.Add(button20);
+            Controls.Add(button19);
+            Controls.Add(button18);
+            Controls.Add(button17);
+            Controls.Add(button16);
+            Controls.Add(button15);
+            Controls.Add(button14);
+            Controls.Add(button13);
+            Controls.Add(button21);
             Controls.Add(textBox9);
             Controls.Add(textBox10);
             Controls.Add(textBox11);
@@ -595,10 +617,6 @@
             Controls.Add(pictureBox10);
             Controls.Add(pictureBox11);
             Controls.Add(pictureBox12);
-            Controls.Add(button16);
-            Controls.Add(button15);
-            Controls.Add(button14);
-            Controls.Add(button13);
             Controls.Add(button12);
             Controls.Add(button11);
             Controls.Add(button10);
@@ -678,14 +696,6 @@
         private Button button10;
         private Button button11;
         private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
         private TextBox textBox9;
         private TextBox textBox10;
         private TextBox textBox11;
@@ -695,5 +705,13 @@
         private PictureBox pictureBox11;
         private PictureBox pictureBox12;
         private Button button21;
+        private Button button13;
+        private Button button14;
+        private Button button15;
+        private Button button16;
+        private Button button17;
+        private Button button18;
+        private Button button19;
+        private Button button20;
     }
 }
