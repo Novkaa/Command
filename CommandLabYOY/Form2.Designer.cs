@@ -52,7 +52,7 @@
             textBox4 = new TextBox();
             textBox5 = new TextBox();
             label8 = new Label();
-            button1 = new Button();
+            label10 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -116,13 +116,14 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Cursor = Cursors.No;
-            label1.Font = new Font("Segoe UI", 40F);
-            label1.Location = new Point(618, -2);
+            label1.BackColor = Color.LawnGreen;
+            label1.Cursor = Cursors.Hand;
+            label1.Font = new Font("Segoe UI", 30F);
+            label1.Location = new Point(1174, 593);
             label1.Name = "label1";
-            label1.Size = new Size(238, 72);
+            label1.Size = new Size(192, 54);
             label1.TabIndex = 33;
-            label1.Text = "Корзина";
+            label1.Text = "Оплатить";
             label1.Click += label1_Click;
             // 
             // label2
@@ -141,7 +142,7 @@
             // 
             label3.BackColor = Color.Red;
             label3.BorderStyle = BorderStyle.Fixed3D;
-            label3.Cursor = Cursors.SizeAll;
+            label3.Cursor = Cursors.Hand;
             label3.FlatStyle = FlatStyle.System;
             label3.Font = new Font("Segoe UI", 20F);
             label3.Location = new Point(44, 9);
@@ -323,25 +324,23 @@
             label8.TabIndex = 82;
             label8.Text = "Ризотто                                              Цена: 500$ 1000гр";
             // 
-            // button1
+            // label10
             // 
-            button1.BackColor = Color.Lime;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Segoe UI", 15F);
-            button1.Location = new Point(1174, 598);
-            button1.Name = "button1";
-            button1.Size = new Size(133, 49);
-            button1.TabIndex = 83;
-            button1.Text = "Оплатить";
-            button1.UseVisualStyleBackColor = false;
+            label10.AutoSize = true;
+            label10.Cursor = Cursors.No;
+            label10.Font = new Font("Segoe UI", 40F);
+            label10.Location = new Point(608, 1);
+            label10.Name = "label10";
+            label10.Size = new Size(238, 72);
+            label10.TabIndex = 85;
+            label10.Text = "Корзина";
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1485, 659);
-            Controls.Add(button1);
+            Controls.Add(label10);
             Controls.Add(label8);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
@@ -402,6 +401,6 @@
         private TextBox textBox4;
         private TextBox textBox5;
         private Label label8;
-        private Button button1;
+        private Label label10;
     }
 }
