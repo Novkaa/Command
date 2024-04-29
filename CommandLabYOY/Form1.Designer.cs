@@ -74,6 +74,7 @@
             button19 = new Button();
             button20 = new Button();
             button22 = new Button();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -91,7 +92,7 @@
             // label1
             // 
             label1.Cursor = Cursors.No;
-            label1.Font = new Font("Segoe UI", 40F);
+            label1.Font = new Font("Segoe UI", 40F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.Black;
             label1.Location = new Point(590, 9);
             label1.Name = "label1";
@@ -108,7 +109,7 @@
             button1.BackgroundImageLayout = ImageLayout.None;
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Segoe UI", 15F);
+            button1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ControlText;
             button1.Location = new Point(71, 150);
             button1.Name = "button1";
@@ -122,7 +123,7 @@
             button2.BackColor = Color.FromArgb(128, 255, 128);
             button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Popup;
-            button2.Font = new Font("Segoe UI", 15F);
+            button2.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             button2.Location = new Point(108, 720);
             button2.Name = "button2";
             button2.Size = new Size(160, 50);
@@ -136,7 +137,7 @@
             button3.BackColor = Color.Azure;
             button3.Cursor = Cursors.Hand;
             button3.FlatStyle = FlatStyle.Popup;
-            button3.Font = new Font("Segoe UI", 15F);
+            button3.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             button3.Location = new Point(71, 414);
             button3.Name = "button3";
             button3.Size = new Size(238, 50);
@@ -150,7 +151,7 @@
             button4.BackColor = Color.Azure;
             button4.Cursor = Cursors.Hand;
             button4.FlatStyle = FlatStyle.Popup;
-            button4.Font = new Font("Segoe UI", 15F);
+            button4.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             button4.Location = new Point(71, 501);
             button4.Name = "button4";
             button4.Size = new Size(238, 50);
@@ -163,7 +164,7 @@
             button5.BackColor = Color.Azure;
             button5.Cursor = Cursors.Hand;
             button5.FlatStyle = FlatStyle.Popup;
-            button5.Font = new Font("Segoe UI", 15F);
+            button5.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             button5.Location = new Point(71, 589);
             button5.Name = "button5";
             button5.Size = new Size(238, 50);
@@ -343,7 +344,7 @@
             button9.BackColor = Color.Green;
             button9.Cursor = Cursors.Hand;
             button9.FlatStyle = FlatStyle.Popup;
-            button9.Font = new Font("Segoe UI", 10F);
+            button9.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button9.Location = new Point(569, 308);
             button9.Name = "button9";
             button9.Size = new Size(32, 22);
@@ -356,7 +357,7 @@
             button10.BackColor = Color.Green;
             button10.Cursor = Cursors.Hand;
             button10.FlatStyle = FlatStyle.Popup;
-            button10.Font = new Font("Segoe UI", 10F);
+            button10.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button10.Location = new Point(746, 309);
             button10.Name = "button10";
             button10.Size = new Size(32, 22);
@@ -369,7 +370,7 @@
             button11.BackColor = Color.Green;
             button11.Cursor = Cursors.Hand;
             button11.FlatStyle = FlatStyle.Popup;
-            button11.Font = new Font("Segoe UI", 10F);
+            button11.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button11.Location = new Point(946, 309);
             button11.Name = "button11";
             button11.Size = new Size(32, 22);
@@ -382,7 +383,7 @@
             button12.BackColor = Color.Green;
             button12.Cursor = Cursors.Hand;
             button12.FlatStyle = FlatStyle.Popup;
-            button12.Font = new Font("Segoe UI", 10F);
+            button12.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button12.Location = new Point(1148, 309);
             button12.Name = "button12";
             button12.Size = new Size(32, 22);
@@ -468,7 +469,7 @@
             button21.BackgroundImageLayout = ImageLayout.None;
             button21.Cursor = Cursors.Hand;
             button21.FlatStyle = FlatStyle.Popup;
-            button21.Font = new Font("Segoe UI", 15F);
+            button21.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             button21.ForeColor = SystemColors.ControlText;
             button21.Location = new Point(71, 322);
             button21.Name = "button21";
@@ -476,14 +477,13 @@
             button21.TabIndex = 45;
             button21.Text = "Комбо обеды";
             button21.UseVisualStyleBackColor = false;
-            button21.Click += button21_Click;
             // 
             // button13
             // 
             button13.BackColor = Color.Green;
             button13.Cursor = Cursors.Hand;
             button13.FlatStyle = FlatStyle.Popup;
-            button13.Font = new Font("Segoe UI", 10F);
+            button13.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button13.Location = new Point(547, 540);
             button13.Name = "button13";
             button13.Size = new Size(32, 22);
@@ -496,7 +496,7 @@
             button14.BackColor = Color.Green;
             button14.Cursor = Cursors.Hand;
             button14.FlatStyle = FlatStyle.Popup;
-            button14.Font = new Font("Segoe UI", 10F);
+            button14.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button14.Location = new Point(746, 541);
             button14.Name = "button14";
             button14.Size = new Size(32, 22);
@@ -509,7 +509,7 @@
             button15.BackColor = Color.Green;
             button15.Cursor = Cursors.Hand;
             button15.FlatStyle = FlatStyle.Popup;
-            button15.Font = new Font("Segoe UI", 10F);
+            button15.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button15.Location = new Point(946, 541);
             button15.Name = "button15";
             button15.Size = new Size(32, 22);
@@ -522,7 +522,7 @@
             button16.BackColor = Color.Green;
             button16.Cursor = Cursors.Hand;
             button16.FlatStyle = FlatStyle.Popup;
-            button16.Font = new Font("Segoe UI", 10F);
+            button16.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button16.Location = new Point(1148, 541);
             button16.Name = "button16";
             button16.Size = new Size(32, 22);
@@ -535,7 +535,7 @@
             button17.BackColor = Color.Green;
             button17.Cursor = Cursors.Hand;
             button17.FlatStyle = FlatStyle.Popup;
-            button17.Font = new Font("Segoe UI", 10F);
+            button17.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button17.Location = new Point(1148, 748);
             button17.Name = "button17";
             button17.Size = new Size(32, 22);
@@ -548,7 +548,7 @@
             button18.BackColor = Color.Green;
             button18.Cursor = Cursors.Hand;
             button18.FlatStyle = FlatStyle.Popup;
-            button18.Font = new Font("Segoe UI", 10F);
+            button18.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button18.Location = new Point(946, 748);
             button18.Name = "button18";
             button18.Size = new Size(32, 22);
@@ -561,7 +561,7 @@
             button19.BackColor = Color.Green;
             button19.Cursor = Cursors.Hand;
             button19.FlatStyle = FlatStyle.Popup;
-            button19.Font = new Font("Segoe UI", 10F);
+            button19.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button19.Location = new Point(746, 747);
             button19.Name = "button19";
             button19.Size = new Size(32, 22);
@@ -574,7 +574,7 @@
             button20.BackColor = Color.Green;
             button20.Cursor = Cursors.Hand;
             button20.FlatStyle = FlatStyle.Popup;
-            button20.Font = new Font("Segoe UI", 10F);
+            button20.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button20.Location = new Point(547, 747);
             button20.Name = "button20";
             button20.Size = new Size(32, 22);
@@ -587,7 +587,7 @@
             button22.BackColor = Color.Azure;
             button22.Cursor = Cursors.Hand;
             button22.FlatStyle = FlatStyle.Popup;
-            button22.Font = new Font("Segoe UI", 15F);
+            button22.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             button22.Location = new Point(71, 235);
             button22.Name = "button22";
             button22.Size = new Size(238, 50);
@@ -595,12 +595,26 @@
             button22.Text = "Новинки";
             button22.UseVisualStyleBackColor = false;
             // 
+            // label2
+            // 
+            label2.Cursor = Cursors.No;
+            label2.Font = new Font("Segoe UI", 25F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(411, 92);
+            label2.Name = "label2";
+            label2.RightToLeft = RightToLeft.No;
+            label2.Size = new Size(152, 43);
+            label2.TabIndex = 55;
+            label2.Text = "Блюда";
+            label2.TextAlign = ContentAlignment.TopCenter;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.InactiveCaption;
             ClientSize = new Size(1254, 847);
+            Controls.Add(label2);
             Controls.Add(button22);
             Controls.Add(button20);
             Controls.Add(button19);
@@ -714,5 +728,6 @@
         private Button button19;
         private Button button20;
         private Button button22;
+        private Label label2;
     }
 }
