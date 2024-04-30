@@ -175,7 +175,7 @@
             Controls.Add(label1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form3";
-            Text = "4242";
+            Text = "Оплата";
             Load += Form3_Load;
             ResumeLayout(false);
             PerformLayout();

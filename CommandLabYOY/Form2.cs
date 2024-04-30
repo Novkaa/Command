@@ -25,7 +25,7 @@ namespace CommandLabYOY
 
         private void button7_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -34,11 +34,11 @@ namespace CommandLabYOY
         }
         private void button2_Click(object sender, EventArgs e)
         {
-           
+
         }
         private void lable9_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }
