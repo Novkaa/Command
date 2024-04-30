@@ -62,5 +62,10 @@ namespace CommandLabYOY
             Form2 f = new Form2();
             f.ShowDialog();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
